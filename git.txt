@@ -1,0 +1,30 @@
+git init =>For intialization your local directory to git
+git add .=>Staging
+git commit -m "<commit message>"
+git remote add origin <url>
+git push remote master --force
+
+
+// creating new branch
+git branch <branch name>
+create new file 
+add some functionality inside that file
+after repeat same process
+i.e git add .
+    git commit -m "new message"
+    git push --set-upstream origin <new branch name>(only first for new branch)
+
+   after that we can use only 
+git push
+
+//merging branch
+  git branch=>it show all branch inside that repository
+  //for merging old branch to base branch
+   git checkout <base branch>
+   git merge <old branch> -m "<new message>"
+   git push
+
+//fetch code
+	
+   git fetch
+   git pull
